@@ -31,7 +31,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -55,5 +55,8 @@
   },
   "devDependencies": {
     "react-router-dom": "^6.22.2"
-  }
+  },
+    "engines": {
+        "node": "18.x"
+    }
 }
